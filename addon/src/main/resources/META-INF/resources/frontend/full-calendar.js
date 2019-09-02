@@ -1,5 +1,5 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
-import './jquery';
+// import './jquery';
 import './moment';
 import './fullcalendar';
 import './locale-all';
