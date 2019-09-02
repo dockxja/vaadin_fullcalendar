@@ -1,7 +1,12 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
+import './jquery';
+import './moment';
+import './fullcalendar';
+import './locale-all';
+
 
 /*
-   Copyright 2018, Stefan Uebe
+   Copyright 2019, Stefan Uebe
 
    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
    documentation files (the "Software"), to deal in the Software without restriction, including without limitation the

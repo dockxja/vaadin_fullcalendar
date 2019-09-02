@@ -17,9 +17,7 @@
 package org.vaadin.stefan.fullcalendar;
 
 import com.vaadin.flow.component.*;
-import com.vaadin.flow.component.dependency.JavaScript;
 import com.vaadin.flow.component.dependency.JsModule;
-import com.vaadin.flow.component.dependency.JsModule.Container;
 import com.vaadin.flow.component.dependency.NpmPackage;
 import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
 import com.vaadin.flow.shared.Registration;
@@ -41,15 +39,8 @@ import java.util.stream.Stream;
  * Please visit <a href="https://fullcalendar.io/">https://fullcalendar.io/</a> for details about the client side
  * component, API, functionality, etc.
  */
-//@NpmPackage(value = "full-calender", version = "2.0.0")
 @Tag("full-calendar")
-@Container({
-        @JsModule("./jquery.js"),
-        @JsModule("./moment.js"),
-        @JsModule("./fullcalendar.js"),
-        @JsModule("./locale-all.js"),
-        @JsModule("./full-calendar.js")
-})
+@JsModule("./full-calendar.js")
 public class FullCalendar extends PolymerTemplate<TemplateModel> implements HasStyle, HasSize {
 
     /**

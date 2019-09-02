@@ -10,3 +10,7 @@ node_modules/
 .classpath
 .settings
 *.iml
+package-lock.json
+package.json
+webpack.config.js
+webpack.generated.js
